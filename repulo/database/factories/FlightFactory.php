@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Filght>
  */
-class FilghtFactory extends Factory
+class FlightFactory extends Factory
 {
     /**
      * Define the model's default state.
