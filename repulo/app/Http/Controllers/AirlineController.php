@@ -30,4 +30,7 @@ class AirlineController extends Controller
         $airline->country = $request->country;
         $airline->save();
     }
+    public function destroy($id){
+       Airline::find($id)->delete();
+    }
 }
