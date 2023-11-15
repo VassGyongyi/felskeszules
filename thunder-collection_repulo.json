@@ -1,0 +1,35 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "repulo",
+    "dateExported": "2023-11-15T19:11:27.044Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "797c2ddd-df9c-4d93-af2c-f552eefe0a13",
+            "colId": "ae083834-e541-4ab7-b6aa-75961ae91cd9",
+            "containerId": "",
+            "name": "http://localhost:8000/api/airline/1",
+            "url": "",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-15T19:06:52.668Z",
+            "modified": "2023-11-15T19:06:52.668Z",
+            "headers": []
+        },
+        {
+            "_id": "f44ef392-c49d-468c-a403-803ed306dbe6",
+            "colId": "ae083834-e541-4ab7-b6aa-75961ae91cd9",
+            "containerId": "",
+            "name": "view",
+            "url": "http://localhost:8000/api/airlines",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-15T19:07:29.820Z",
+            "modified": "2023-11-15T19:08:01.624Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

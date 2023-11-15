@@ -19,7 +19,7 @@ class AirlineController extends Controller
 
     public function store(Request $request){
         $airline = new Airline();
-        $airline->name = $request->title;
+        $airline->name = $request->name;
         $airline->country = $request->country;
         $airline->save();
     }
