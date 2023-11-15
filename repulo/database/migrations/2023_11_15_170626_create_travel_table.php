@@ -11,9 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('arlines', function (Blueprint $table) {
-            $table->id();
+        Schema::create('travel', function (Blueprint $table) {
+            $table->id('travel_id');
+            $table->string('evaluation');
+            $table->foreignId('flight_id')->references('flight_id')->on('flights');
+            $table->foreignId('user_id')->references('id')->on('users');
             $table->timestamps();
+
         });
     }
 
@@ -22,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('arlines');
+        Schema::dropIfExists('travel');
     }
 };
